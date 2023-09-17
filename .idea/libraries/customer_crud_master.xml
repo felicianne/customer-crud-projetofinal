@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="customer-crud-master">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/customer-crud-master.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
