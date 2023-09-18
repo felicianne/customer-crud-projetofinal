@@ -44,8 +44,8 @@ public class OrderFactory {
     public static IOrderPlaceUseCase placeOrderUseCase() {
         return new OrderPlaceUseCaseImpl(
                 createRepository(),
-                new OrderEmailNotifierImpl(new SendEmail()),
-                new OrderSmsNotifierImpl(new SendSms())
+                OrderFactory.createNotifierOrderSendEmail(),
+                OrderFactory.createNotifierOrderSendSms()
         );
     }
 
